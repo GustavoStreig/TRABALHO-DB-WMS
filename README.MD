@@ -1,0 +1,4 @@
+
+Para executar o sistema no ambiente linux será necessário apenas dois passos, executar arquivo sql no Oracle Sql developer para a criação da tabela e inserção de dados. Por fim basta verificar as configurações de URL na classe ConexionOracle, a URL, usuario e senha já estão definidos para a maquina LABDATABASE, entretanto, talvez seja necessário colocar o ip da maquina virtual no lugar do "localhost" da URL.
+
+Vale ressaltar que para a aplicação funcionar corretamente é preciso se certificar que o driver da oracle estaja carregado em libraries. Caso não esteja, basta ir em buildpatch dentro da id e adicionar um external JAR, o arquivo do drive se encontra dentro da pasta lib do projeto.
